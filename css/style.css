@@ -1,0 +1,143 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	}
+
+
+/* page nav */
+.logo {
+	max-width: 100px;
+}
+
+.page-nav {
+	text-align: left;
+	padding: 10px;
+	position: fixed;
+	width: 100%
+	}
+
+.page-nav ul{
+	list-style: none;
+	 float: right;
+
+    }	
+
+.page-nav li{
+	display: inline;
+	text-align: center;
+	font-weight: 300;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	}
+.page-nav li:last-child{
+	padding-right: 20px;
+}	
+.page-nav a {
+	color: #ffffff;
+	text-decoration: none;
+	
+	}
+.page-nav a:hover {
+	border-bottom:2px solid white;
+	padding-bottom: 5px;
+	}
+
+
+
+header.intro button {
+	border: 2px solid white;
+	padding: 20px;
+  	border-radius: 5px;
+  	font-size: 16px;
+  	background-color: transparent;
+  	color: white;
+  	text-transform: uppercase;
+  	font-weight: bold;
+}
+
+header.intro button:hover {
+	background-color: #ffffff;
+	color: black;
+	}
+
+
+.nav {
+	display: flex;
+	
+}
+
+
+/* sections */
+.content-wrapper {
+	padding: 25px;
+}
+
+.prop-box {
+	padding: 20px;
+	}
+
+.flex-col {
+	flex: 1 1 auto;
+	}
+
+
+
+
+/* services */	
+	
+.service-tab{
+	padding:0px;
+	margin: 0px;
+}
+.service-tab ul{
+	list-style: none;
+
+	}
+.service-tab li{
+	display: inline;
+	padding:10px;
+	}
+
+
+
+
+
+/* Contact */
+.contact {
+	background-color: #F0F0F0;
+	color: #5E5E5E;
+	}
+.connected {
+	display: flex;
+	}
+
+
+/* footer */
+.footer {
+	background-color: #000;
+	}
+.footerWrap {
+	color: #fff;
+	padding: 25px;
+	font-size: 12px;
+	}
+
+@media screen and (min-width:780px) {
+.introWrap {
+	height: 400px;
+	padding: 170px 100px 100px 100px;
+	text-align: left;
+	}
+
+.prop-box {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	}
+
+		
+}
+
