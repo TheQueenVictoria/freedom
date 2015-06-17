@@ -23,9 +23,23 @@ nav {
 	margin: 0 auto;
 }
 
+.top-banner {
+	background-color: #000000;
+	color:#ffffff;
+	height: 40px;
+}
+
+.top-banner p{
+	padding: 10px;
+	}
+
 .top-nav {
 	background-color: rgba(203, 203, 203, .5);
+	height: 60px;
 }
+
+
+
 .page-nav ul{
 	list-style: none;
 	padding: 10px;
