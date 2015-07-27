@@ -4,6 +4,8 @@ body {
 	}
 h1 {
 	margin-bottom: 1em;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
 }
 
 h4 p {
@@ -19,7 +21,6 @@ h4 p {
 
 
 nav {
-	width: 90%;
 	margin: 0 auto;
 }
 
@@ -39,10 +40,13 @@ nav {
 }
 
 
+.page-nav {
+	padding:20px;
+}
+
 
 .page-nav ul{
 	list-style: none;
-	padding: 10px;
 	text-align: center;
 	margin: 0 auto;
     }	
@@ -85,14 +89,18 @@ header.intro button:hover {
 	color: black;
 	}*/
 
-
+.img-circle {
+	margin-right: 25px;
+}
+.img-rounded {
+	    margin-bottom: 20px;
+}
 
 /* Contact */
 .contact, .services {
 	background-color: #F0F0F0;
 	color: #5E5E5E;
 	}
-
 
 /* footer */
 .footer {
